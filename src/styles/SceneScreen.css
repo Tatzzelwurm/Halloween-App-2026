@@ -1,0 +1,217 @@
+.scene__bubble {
+    padding: 0;
+
+}
+
+.step {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.text__scene {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.invitation__img {
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.scene__title {
+    color: var(--neutral-opacity-1);
+}
+
+.close__btn {
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    height: 34px;
+    width: 34px;
+    z-index: 1;
+    background-color: var(--neutral-filled-400);
+    border-radius: 12px;
+    padding: 8px;
+    border: 1px solid var(--neutral-opacity-0_1);
+    align-self: end;
+}
+.close__btn svg {
+    fill: var(--neutral-opacity-0_5);
+    transition: 0.2s;
+}
+.close__btn:hover svg {
+fill: var(--neutral-opacity-1);
+}
+.close__btn:active svg {
+fill: var(--neutral-filled-pressed);
+}
+
+.items {
+    font-family: "Manrope", sans-serif;
+    color: var(--neutral-opacity-1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.item {
+    display: flex;
+    background-color: var(--neutral-filled-300);
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    gap: 4px;
+    transition: 0.2s;
+    align-items: center;
+
+}
+
+.item:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: var(--neutral-opacity-1);
+    color: var(--neutral-filled-400);
+}
+
+.item:hover .item__number {
+    color: var(--neutral-filled-400);
+}
+
+.item:active {
+    background-color: var(--neutral-filled-200);
+}
+
+.item__number {
+    font-size: 16px;
+    color: var(--terracota-fiiled-100);
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.question {
+    color: var(--neutral-opacity-1);
+}
+
+
+@media (min-width: 768px) {
+    .screen__scene {
+        padding: 32px;
+    }
+
+    .scene__bubble {
+        gap: 0px;
+    }
+
+    .invitation__img {
+        height: 300px;
+    }
+
+    .step {
+        padding: 32px;
+        gap: 32px;
+    }
+
+    .text__scene {
+        gap: 16px;
+    }
+        .items {
+        gap: 16px;
+    }
+
+    .item {
+        font-size: 18px;
+    }
+
+    .item__number {
+        font-size: 18px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .screen__scene {
+        padding: 0 32px 0 32px;
+    }
+
+    .scene__bubble {
+        height: 576px;
+        width: 896px;
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .invitation__img {
+        width: 323px;
+        height: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 16px;
+        border-top-left-radius: 16px;
+
+    }
+
+    .text__scene {
+        height: 330px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .screen__scene {
+        padding: 0 64px 0 64px;
+    }
+
+    .scene__bubble {
+        height: 752px;
+        width: 1216px;
+        border-radius: 24px;
+    }
+
+    .invitation__img {
+        width: 421px;
+        border-top-left-radius: 24px;
+        border-bottom-left-radius: 24px;
+    }
+
+    .step {
+        padding: 48px;
+        gap: 48px;
+
+    }
+
+    .text__scene {
+        gap: 24px;
+        height: 414px;
+    }
+
+    .close__btn {
+        border-radius: 16px;
+        height: 50px;
+        width: 50px;
+    }
+    .close__btn svg {
+        height: 24px;
+        width: 24px;
+    }
+    
+        .items {
+        gap: 24px;
+    }
+
+    .item {
+        font-size: 18px;
+        gap: 12px;
+        padding: 16px;
+        border-radius: 24px;
+        font-size: 24px;
+    }
+
+    .item__number {
+        font-size: 24px;
+    }
+
+}

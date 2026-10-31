@@ -1,0 +1,63 @@
+
+.ending__title {
+    color: var(--accent);
+}
+.ending__bubble {
+    border-color: var(--border-color);
+}
+.screen__ending--successor { 
+    --accent: var(--yellow-light);
+    --btn-font-color: var(--neutral-filled-400);
+    --border-color: var(--yellow-light-0_5);
+}
+.screen__ending--eternal_spectator {
+    --accent: var(--terracota-fiiled-100);
+    --btn-font-color: var(--neutral-opacity-1);
+    --border-color: var(--terracota-opacity-0_5);
+ }
+.screen__ending--escaped {
+     --accent: var(--neutral-opacity-1);
+     --btn-font-color: var(--neutral-filled-400);
+     --border-color: var(--neutral-opacity-0_5);
+}
+
+.screen__ending--heart { 
+    --accent: var(--green-light); 
+    --btn-font-color: var(--neutral-filled-400);
+    --border-color: var(--green-light-opacity-0_5);
+}
+
+
+.ending__button {
+    background-color: var(--accent);
+    color: var(--btn-font-color);
+}
+
+
+.screen__ending--successor .ending__button:hover {
+    background-color: var(--yellow-light-hover);
+}
+.screen__ending--successor .ending__button:active {
+    background-color: var(--yellow-light-pressed);
+}
+
+.screen__ending--eternal_spectator .ending__button:hover {
+    background-color: var( --terracota-filled-hover);
+    color: var(--neutral-dark);
+}
+.screen__ending--eternal_spectator .ending__button:active {
+    background-color: var( --terracota-filled-pressed);
+    color: var(--neutral-dark);
+}
+.screen__ending--escaped .ending__button:hover {
+    background-color: var(--neutral-filled-200);
+}
+.screen__ending--escaped .ending__button:active {
+    background-color: var(--neutral-filled-pressed);
+}
+.screen__ending--heart .ending__button:hover {
+    background-color: var(--green-light-filed-hover);
+}
+.screen__ending--heart .ending__button:active {
+    background-color: var(--green-light-filed-pressed);
+}

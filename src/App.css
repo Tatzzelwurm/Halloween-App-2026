@@ -1,0 +1,31 @@
+@import './styles/Reset.css';
+@import './styles/StartScreen.css';
+@import './styles/SceneScreen.css';
+@import './styles/EndingScreen.css';
+
+
+:root {
+  --bubble-color: #151515;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --neutral-opacity-0_5: rgba(255, 255, 255, 0.5);
+  --neutral-opacity-1: rgba(255, 255, 255, 1);
+  --neutral-opacity-0_1: rgba(255, 255, 255, 0.1);
+  --neutral-filled-200: rgba(226, 226, 226, 1);
+  --neutral-filled-pressed: rgba(245, 245, 245, 1);
+  --neutral-dark: rgba(251, 251, 251, 1);
+  --terracota-fiiled-100: rgba(240, 73, 17, 1);
+  --neutral-filled-300: rgba(39, 39, 39, 1);
+  --yellow-light: rgba(255, 241, 120, 1);
+  --yellow-light-0_5: rgba(255, 241, 120, 0.5);
+  --yellow-light-border: rgba(255, 241, 120, 0.5);
+  --yellow-light-hover: rgba(253, 244, 167, 1);
+  --yellow-light-pressed: rgba(241, 223, 67, 1);
+  --neutral-filled-400: rgba(21, 21, 21, 1);
+  --terracota-filled-hover: rgba(245, 103, 55, 1);
+  --terracota-filled-pressed: rgba(194, 58, 12, 1);
+  --terracota-opacity-0_5: rgba(240, 73, 17, 0.5);
+  --green-light: rgba(220, 254, 90, 1);
+  --green-light-opacity-0_5: rgba(220, 254, 90, 0.5);
+  --green-light-filed-hover: rgba(229, 253, 138, 1);
+  --green-light-filed-pressed: rgba(165, 200, 33, 1);
+}
