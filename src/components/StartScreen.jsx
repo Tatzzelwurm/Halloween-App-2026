@@ -21,7 +21,7 @@ function StartScreen({ onStart }) {
           </div>
           <button className='intro__button' onClick={onStart}>{meta.intro.button}</button>
         </div>
-        <p className='info__preax'>Проект выполнен в рамках стажировки <span>PREAX</span></p>
+        <p className='info__preax'>Проект выполнен в рамках стажировки <a href="https://preax.ru" target="_blank" rel="noopener noreferrer">PREAX</a></p>
       </div>
     </main>
   )

@@ -32,7 +32,7 @@ function EndingScreen({ endingId, onRestart }) {
           </div>
         </div>
         <p className="info__preax">
-          Проект выполнен в рамках стажировки <span>PREAX</span>
+          Проект выполнен в рамках стажировки <a href="https://preax.ru" target="_blank" rel="noopener noreferrer">PREAX</a>
         </p>
       </div>
     </main>

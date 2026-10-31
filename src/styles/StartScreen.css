@@ -119,8 +119,14 @@
 
 }
 
-.info__preax span {
+.info__preax a {
     text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s;
+    color: var(--neutral-opacity-0_5);
+}
+.info__preax a:hover {
+    color: var(--neutral-opacity-1);
 }
 
 @media (min-width: 768px) {
